@@ -25,8 +25,8 @@ except: # errors execute the except block
     print('There is an error')
 ```
 This captures any exception that happens in the try block, and allows the program to continue. I added the else and finally commands to the next try block. Else provides code when there is no exception, and finally executes at the completion of the try block regardless of errors.
-Raising an exception allows for custom generated errors to be produced. Using if/else I asked for an input of 0, all other input produced an error.
-
+Raising an exception allows for custom generated errors to be produced. Using if/else I asked for an input of 0, all other input produced an error.  
+![Results of Exception](https://github.com/Timhitc/IntroToProg-Python-Mod07/blob/main/docs/output.jpg "Program Output")  
 This is useful for catching input that is technically valid, but not what is wanted.
 	The last variation of error handling was to catch specific errors. Using a try/except block you specify what specific error you are looking for. In the example earlier it was a ZeroDivisionError. The Python standard library, https://docs.python.org/3/library/exceptions.html, explains all the standard error types in python
 ## Summary
